@@ -23,9 +23,14 @@ const SuperHeader = () => {
 };
 
 const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
   font-size: 0.875rem;
   color: ${COLORS.gray[300]};
   background-color: ${COLORS.gray[900]};
+  height: 40px;
+  gap: 24px;
+  padding: 0 32px;
 `;
 
 const MarketingMessage = styled.span`
